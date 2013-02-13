@@ -1,0 +1,1 @@
+<xml><cgupdate><status>OK</status><lastupdate><%=lastUpdateTime%></lastupdate><filesize><%=fileSize%></filesize></cgupdate></xml>

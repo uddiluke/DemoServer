@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infors timestamp="<%=lastUpdateTime%>" >
+
+    <status>
+      OK
+    </status>
+
+    <infortype>
+        <type
+            id="19"
+            name="新闻" />
+        <type
+            id="20"
+            name="打折" />
+        <type
+            id="21"
+            name="活动" />
+    </infortype>
+    
+   <% newsList.forEach(function(news){    %>
+       <info id="<%=news.id%>" >
+      
+        <title>
+<%=news.title%>
+        </title>
+
+        <catid>
+<%=news.category%>
+        </catid>
+
+        <datetime>
+<%=news.publishDate%>
+        </datetime>
+
+        <img>
+<%=news.imgUrl%>
+        </img>
+
+        <thumbnail>
+<%=news.thumbnailUrl%>
+        </thumbnail>
+
+        <url>
+<%=news.contentUrl%>
+        </url>
+
+        <summary>
+<%=news.summery%>
+        </summary>
+
+        <source>
+<%=news.source%>
+        </source>
+    </info>
+ <%   })    %>
+</infors>

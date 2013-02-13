@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wr ver="200">
+  <cts>
+   <ct tz="GMT+08:00" id="33" nm="北京">
+    <pages>
+      <page id="fhour">
+        <forecasthour>
+          <hour id="1" timeinterval="28日20:00-29日02:00" wd="雾" wid="32" ltmp="-4" htmp="-2" wl="微风" wdir="无持续风向" />
+          <hour id="2" timeinterval="29日02:00-08:00" wd="雾" wid="32" ltmp="-5" htmp="-3" wl="微风" wdir="无持续风向" />
+          <hour id="3" timeinterval="29日08:00-14:00" wd="雾" wid="18" ltmp="-3" htmp="3" wl="微风" wdir="无持续风向" />
+          <hour id="4" timeinterval="29日14:00-20:00" wd="雾" wid="18" ltmp="0" htmp="3" wl="微风" wdir="无持续风向" />
+        </forecasthour>
+      </page>
+      <page id="main">
+         <dts>
+            <dt lwd="雾" lwid="32" id="1" dow="1" date="2013/01/28" kn="空气比较潮湿，请注意衣物防潮，五环路以内道路（不含五环主路），限行的尾号为：5和0" wl="2" wdir="西南风" hwd="雾" hwid="32" ftv="1|世界湿地日;5" ltmp="-5" htmp="" sr="07:27" ss="17:28" tn="5,0" isholiday="0" />
+            <dt id="2" dow="2" date="2013/01/29" kn="不要被灿烂的阳光迷惑，室外温度并不高，注意保暖，五环路以内道路>（不含五环主路），限行的尾号为：1和6" wl="&lt;3" wdir="微风" hwd="晴" lwd="雾" hwid="0" lwid="32" ftv="1|世界湿地日;4" htmp="4" ltmp="-4" sr="07:26" ss="17:29" tn="1,6" isholiday="0" />
+            <dt id="3" dow="3" date="2013/01/30" kn="天气有点冷，泡杯热茶温暖手心，五环路以内道路（不含五环主路），限行的尾号为：2和7" wl="&lt;3" wdir="微风" hwd="多云" lwd="阴" hwid="1" lwid="2" ftv="1|世界湿地日;3" htmp="3" ltmp="-3" sr="07:25" ss="17:31" tn="2,7" isholiday="0" />
+            <dt id="4" dow="4" date="2013/01/31" kn="气温下降，请注意加衣保暖，小心路面湿滑，五环路以内道路（不含五环主路），限行的尾号为：3和8" wl="&lt;3" wdir="微风" hwd="雨夹雪" lwd="多云" hwid="6" lwid="31" ftv="1|世界湿地日;2" htmp="2" ltmp="-2" sr="07:24" ss="17:32" tn="3,8" isholiday="0" />
+            <dt id="5" dow="5" date="2013/02/01" kn="多去室外走动，让阳光赶走一些寒冷，五环路以内道路（不含五环主路），限行的尾号为：4和9" wl="3-4" wdir="北风" hwd="晴" lwd="晴" hwid="0" lwid="30" ftv="1|世界湿地日;1" htmp="3" ltmp="-7" sr="07:24" ss="17:33" tn="4,9" isholiday="0" />
+          </dts>
+          <fcs>
+            <fc id="1" dow="2" wid="0" htmp="4" ltmp="-4" />
+            <fc id="2" dow="3" wid="1" htmp="3" ltmp="-3" />
+            <fc id="3" dow="4" wid="6" htmp="2" ltmp="-2" />
+            <fc id="4" dow="5" wid="0" htmp="3" ltmp="-7" />
+         </fcs>
+         <cc gdt="2013/01/28" ldt="壬辰年十二月十七" upt="21:40" tmp="-4" htmp="" ltmp="-5" wd="雾" wid="32" wl="2" wdir="西南风" uvidx="最弱" hum="87" sr="07:27" ss="17:28" dl="0" />
+         <dws lupd="1359381454819">
+           <dw id="22736" pt="2013/01/28 17:00" et="2013/01/29 12:00" desc="大雾黄色预警" info="预计今天夜间到明天上午，本市大部分地区能见度仍然较差，南部及东部地区可能出现能见度小于500米的雾。请注意防范。" icon="122" url="" />
+           <dw id="22718" pt="2013/01/28 09:00" et="2013/01/29 09:00" desc="霾黄色预警" info="预计今天本市大部地区仍将维>持能见度小于3000米的霾，空气污浊，请注意防范。" icon="132" url="" />
+          </dws>
+       </page>
+       <page id="trend">
+         <trends md="0">
+          <day id="1" dow="1" date="2013/01/28" hwd="" lwd="雾" hwid="" lwid="32" htmp="" ltmp="-5" hwl="" lwl="&lt;3" hwdir="" lwdir="微风" />
+          <day id="2" dow="2" date="2013/01/29" hwd="晴" lwd="雾" hwid="0" lwid="32" htmp="4" ltmp="-4" hwl="&lt;3" lwl="&lt;3" hwdir="微风" lwdir="微风" />
+          <day id="3" dow="3" date="2013/01/30" hwd="多云" lwd="阴" hwid="1" lwid="2" htmp="3" ltmp="-3" hwl="&lt;3" lwl="&lt;3" hwdir="微风" lwdir="微风" />
+          <day id="4" dow="4" date="2013/01/31" hwd="雨夹雪" lwd="多云" hwid="6" lwid="31" htmp="2" ltmp="-2" hwl="&lt;3" lwl="3-4" hwdir="微风" lwdir="北风" />
+          <day id="5" dow="5" date="2013/02/01" hwd="晴" lwd="晴" hwid="0" lwid="30" htmp="3" ltmp="-7" hwl="3-4" lwl="&lt;3" hwdir="北风" lwdir="微风" />
+         </trends>
+         <history>
+            <day id="0" dow="7" date="2013/01/27" hwd="晴" lwd="雾" hwid="0" lwid="32" htmp="2" ltmp="-6" hwl="&lt;3" lwl="&lt;3" hwdir="微风" lwdir="微风" />
+            <day id="1" dow="1" date="2013/01/28" hwd="雾" lwd="雾" hwid="18" lwid="32" htmp="3" ltmp="-5" hwl="&lt;3" lwl="&lt;3" hwdir="微风" lwdir="微风" />
+        </history>
+       </page>
+       <page id="index">
+         <idxs lupd="1359367996748"><idx type="3" nm="化妆指数" lv="1" desc="保湿" recom="天气寒冷，请>用滋润保湿型化妆品，少扑粉，使用润唇膏后再抹口红。" />
+          <idx type="9" nm="洗车指数" lv="4" desc="不宜" recom="不宜洗车，未来24小时内有雨，如果在此期间洗车，雨水>和路上的泥水可能会再次弄脏您的爱车。" />
+          <idx type="11" nm="穿衣指数" lv="4" desc="冷" recom="天气冷，建议着棉衣、皮夹克加羊毛衫等冬季服装。年老体弱者宜着厚棉衣或冬大衣。" />
+          <idx type="12" nm="紫外线指数" lv="1" desc="最弱" recom="属弱紫外线辐射天气，无需特别防护。若长期在户外，建议涂擦SPF在8-12之间的防晒护肤品。" />
+          <idx type="17" nm="运动指数" lv="4" desc="较不宜" recom="天气较好，但考虑天气寒冷，推荐您进行室内运动，户外运动时请注意保暖并做好准备活动。" />
+         </idxs>
+         <air cityid="33" cityName="北京" lv="366" lv_original="366" pmten="" pmtwo="0.362" ptime="2013-01-28 20:00:00.0" />
+         </page>
+         </pages>
+         <voice value="" />
+             
+       </ct>
+       </cts>
+     </wr>
